@@ -12,7 +12,7 @@ package com.mycompany.csc325_oop_designreview_lab;
 public class Student extends Human {
     
     public String getAddress() {
-    
+    return address;
     }
     public void setAddress(String address) {
       
