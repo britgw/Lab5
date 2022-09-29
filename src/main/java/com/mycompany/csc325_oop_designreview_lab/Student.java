@@ -20,11 +20,11 @@ public class Student extends Human {
     return address;
     }
     public void setAddress(String address) {
-      
+    this.address = address;
     }
     
     public double getGPA(){
-    return this.GPA;
+    return GPA;
     }
     public void setGPA(double a){
     this.GPA = a;
