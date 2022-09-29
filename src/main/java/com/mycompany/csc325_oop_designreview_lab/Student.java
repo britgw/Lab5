@@ -10,6 +10,7 @@ package com.mycompany.csc325_oop_designreview_lab;
  * @author MoaathAlrajab
  */
 public class Student extends Human {
+    private double GPA;
     
     public String getAddress() {
     return address;
@@ -17,7 +18,13 @@ public class Student extends Human {
     public void setAddress(String address) {
       
     }
-
+    
+    public double getGPA(){
+    return this.GPA;
+    }
+    public void setGPA(double a){
+    this.GPA = a;
+    }
     
 // ToDo 1: Make this class a child of Human
 	
