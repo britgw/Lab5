@@ -9,8 +9,17 @@ package com.mycompany.csc325_oop_designreview_lab;
  *
  * @author MoaathAlrajab
  */
-public class Student {
-	// ToDo 1: Make this class a child of Human
+public class Student extends Human {
+    
+    public String getAddress() {
+    
+    }
+    public void setAddress(String address) {
+      
+    }
+
+    
+// ToDo 1: Make this class a child of Human
 	
 	// ToDo 2: Fix the resulting errors
 	
