@@ -17,17 +17,17 @@ public class Student extends Human {
     }
     
     public String getAddress() {
-    return address;
+    return address; //Gets the Address
     }
     public void setAddress(String address) {
-    this.address = address;
+    this.address = address; //Sets Address
     }
     
     public double getGPA(){
-    return GPA;
+    return GPA; //Returns GPA
     }
     public void setGPA(double a){
-    this.GPA = a;
+    this.GPA = a; //Sets the GPA
     }
     
     
